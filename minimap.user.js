@@ -345,7 +345,7 @@ if(!toggle_follow)
 }
 
 function toggleShow(){
-  toggle_show = !toggle_show;
+  toggle_show = toggle_show;
   if (toggle_show){
     document.getElementById("minimap-box").style.display = "block";
     document.getElementById("minimap-config").style.display = "block";
